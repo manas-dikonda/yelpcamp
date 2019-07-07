@@ -1,0 +1,42 @@
+body {
+	background: #032745;
+	color: #FFF;
+}
+
+nav a {
+	color: #FFF;
+}
+
+.jumbotron {
+	color: black;
+}
+
+.customForm {
+	font-size: 1.2rem; 
+	width: 30%;
+	margin: 25px auto;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+#aback {
+	margin: 0 auto;
+}
+.carousel-item {
+	min-height: 569px;
+    min-width: 700px;
+    height: 569px;
+    width: 100%;
+}
+
+.carousel-item img {
+	width: 100%
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}

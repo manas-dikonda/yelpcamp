@@ -1,0 +1,25 @@
+<% include partials/header %>
+
+<div class="container">
+	<h1>
+		User Log In
+	</h1>
+	<form class="customForm" action="/login" method="POST">
+		<div class="form-group">
+			<label for="username"><i class="fas fa-user"></i> Username</label>
+			<input class="form-control" id="username" type="text" name="username" placeholder="username">
+		</div>
+		<div>
+			<label for="password"><i class="fas fa-unlock"></i> Password</label>
+			<input class="form-control" id="password" type="password" name="password" placeholder="password">
+		</div>
+		<button type="submit" class="btn btn-primary btn-lg btn-block mt-3">
+			Login
+		</button>
+	</form>
+	<div id="aback">
+		<a href="/campground">Go back</a>
+	</div>
+</div>
+
+<% include partials/footer %>
