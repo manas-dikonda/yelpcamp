@@ -1,4 +1,4 @@
-#YelpCamp
+# YelpCamp
 ________________________________________
 
 YelpCamp is a NodeJS application where users can post a campground, view other campgrounds, comment about their experience and go and book their stay.
